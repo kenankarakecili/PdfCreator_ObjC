@@ -13,6 +13,7 @@
 		3662E1961C00813E000F8165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3662E1941C00813E000F8165 /* Main.storyboard */; };
 		3662E1981C00813E000F8165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3662E1971C00813E000F8165 /* Assets.xcassets */; };
 		3662E19B1C00813E000F8165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3662E1991C00813E000F8165 /* LaunchScreen.storyboard */; };
+		36CB9AC51C00833500E5A4BF /* PdfRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB9AC41C00833500E5A4BF /* PdfRenderer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3662E1971C00813E000F8165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3662E19A1C00813E000F8165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3662E19C1C00813E000F8165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36CB9AC31C00833500E5A4BF /* PdfRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfRenderer.h; sourceTree = "<group>"; };
+		36CB9AC41C00833500E5A4BF /* PdfRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfRenderer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				3662E18E1C00813E000F8165 /* AppDelegate.h */,
 				3662E18F1C00813E000F8165 /* AppDelegate.m */,
+				36CB9AC31C00833500E5A4BF /* PdfRenderer.h */,
+				36CB9AC41C00833500E5A4BF /* PdfRenderer.m */,
 				3662E1911C00813E000F8165 /* ViewController.h */,
 				3662E1921C00813E000F8165 /* ViewController.m */,
 				3662E1941C00813E000F8165 /* Main.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3662E1931C00813E000F8165 /* ViewController.m in Sources */,
+				36CB9AC51C00833500E5A4BF /* PdfRenderer.m in Sources */,
 				3662E1901C00813E000F8165 /* AppDelegate.m in Sources */,
 				3662E18D1C00813E000F8165 /* main.m in Sources */,
 			);
@@ -298,6 +304,7 @@
 				3662E1A11C00813E000F8165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
